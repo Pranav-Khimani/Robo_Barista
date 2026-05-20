@@ -16,8 +16,6 @@
 
 
 
-
-
 print("Welcome to MV's coffee Shop !!!!")
 
 name = input("what is your name ? \n ")
