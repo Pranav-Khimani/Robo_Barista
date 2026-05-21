@@ -23,17 +23,17 @@ name = input("what is your name ? \n ")
 
 
 if name == "kavish" or name == "sagar" or name == "arman":
-        pagal_status = input(" are you pagal ? \n")
+        evil_status = input(" are you evil ? \n")
         good_deeds = input(" How many good deeds you've done today ? \n ")
-        if pagal_status == "yes" and good_deeds < "5":
+        if evil_status == "yes" and good_deeds < "5":
                 print(" Get out of here " + name +  " , you will not get served here !")
-        elif pagal_status == "no" and good_deeds >= "5":
+        elif evil_status == "no" and good_deeds >= "5":
                 print(" Wow you've done some great deeds! Come on in .")
 
 else:
        print(" 0h you are one of the good people !")
 
-    # the word PAGAL means MAD OR EVIL .
+    # we only take evil people with good deeds
 
 print (" hello... " + name + " welcome in !")
       
