@@ -41,7 +41,7 @@ menu = "espresso \n" + "cappuccino \n" + "latte \n" + "black coffee \n"
 
 print("What would you like to order ? \n " )
 
-print("Here is our menu : \n " + menu)
+print("Here is our menu : \n" + menu)
 
 order = input()
 
@@ -58,6 +58,12 @@ elif order == "espresso":
     price = 10      
 elif order == "black coffee":
     price = 8
+elif order == "mv special":
+    price = 100  
+elif order == "ice coffee":
+    price = 12    
+elif order == "python coffee":
+    price = 20    
 else : 
   print(" Sorry we don't have that here .")
   exit()
